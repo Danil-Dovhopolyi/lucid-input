@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Formula Input React Component
 
-## Getting Started
+A dynamic and interactive formula input component built using **React** and **Zustand** for state management, designed to handle complex formula input, suggestions, and validation. The component supports autocomplete, editing tags, operand entry, and formula validation.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Formula Input**: Users can input and edit formulas using numbers, operators, and custom tags.
+- **Autocomplete Suggestions**: As the user types, suggestions for tags are shown and can be selected using the keyboard or mouse.
+- **Formula Validation**: The input is validated in real-time to ensure a correct structure before submitting.
+- **Keyboard Navigation**: Users can navigate the suggestions list with arrow keys and select using `Enter`.
+- **Result Calculation**: Formula results are automatically calculated and displayed when the formula is valid.
+- **Error Handling**: Displays error messages if the formula is invalid or cannot be calculated.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: For building the user interface.
+- **Zustand**: For managing the formula state.
+- **React Query**: For fetching autocomplete suggestions from an API.
+- **Tailwind CSS**: For styling the component.
+- **TypeScript**: For static typing and better developer experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
